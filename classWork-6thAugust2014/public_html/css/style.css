@@ -1,0 +1,42 @@
+html
+{
+    background-color: grey;
+}
+
+body
+{
+    background-color: darkgray;
+}
+
+#headerImage
+{
+    height: 140px;
+    width: 140px;
+    float: left;
+}
+
+#carousel-image
+{
+    height: 140px;
+    width: 140px;
+}
+
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+
+.container-fluid, .page-wrapper
+{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.pagination
+{
+    align-content: center;
+}
+
